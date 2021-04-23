@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="Oracle - @kws">
+  <database-model serializer="dbm" dbms="ORACLE" family-id="ORACLE" format-version="4.19">
+    <root id="1">
+      <ServerVersion>18.0.0.0.0</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="ANONYMOUS">
+      <ObjectId>62</ObjectId>
+    </schema>
+    <schema id="3" parent="1" name="APPQOSSYS">
+      <ObjectId>54</ObjectId>
+    </schema>
+    <schema id="4" parent="1" name="AUDSYS">
+      <ObjectId>8</ObjectId>
+    </schema>
+    <schema id="5" parent="1" name="C##KWS">
+      <ObjectId>103</ObjectId>
+      <CreatedTimestamp>2021-02-16.21:13:23</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-11.20:04:37</ModifiedTimestamp>
+      <IntrospectionTimestamp>2021-04-11.20:04:38</IntrospectionTimestamp>
+      <Current>1</Current>
+    </schema>
+    <schema id="6" parent="1" name="CTXSYS">
+      <ObjectId>82</ObjectId>
+    </schema>
+    <schema id="7" parent="1" name="DBSFWUSER">
+      <ObjectId>35</ObjectId>
+    </schema>
+    <schema id="8" parent="1" name="DBSNMP">
+      <ObjectId>53</ObjectId>
+    </schema>
+    <schema id="9" parent="1" name="DIP">
+      <ObjectId>23</ObjectId>
+    </schema>
+    <schema id="10" parent="1" name="DVF">
+      <ObjectId>98</ObjectId>
+    </schema>
+    <schema id="11" parent="1" name="DVSYS">
+      <ObjectId>1279990</ObjectId>
+    </schema>
+    <schema id="12" parent="1" name="GGSYS">
+      <ObjectId>59</ObjectId>
+    </schema>
+    <schema id="13" parent="1" name="GSMADMIN_INTERNAL">
+      <ObjectId>21</ObjectId>
+    </schema>
+    <schema id="14" parent="1" name="GSMCATUSER">
+      <ObjectId>58</ObjectId>
+    </schema>
+    <schema id="15" parent="1" name="GSMUSER">
+      <ObjectId>22</ObjectId>
+    </schema>
+    <schema id="16" parent="1" name="LBACSYS">
+      <ObjectId>96</ObjectId>
+    </schema>
+    <schema id="17" parent="1" name="MDDATA">
+      <ObjectId>94</ObjectId>
+    </schema>
+    <schema id="18" parent="1" name="MDSYS">
+      <ObjectId>88</ObjectId>
+    </schema>
+    <schema id="19" parent="1" name="OJVMSYS">
+      <ObjectId>80</ObjectId>
+    </schema>
+    <schema id="20" parent="1" name="OLAPSYS">
+      <ObjectId>91</ObjectId>
+    </schema>
+    <schema id="21" parent="1" name="ORACLE_OCM">
+      <ObjectId>39</ObjectId>
+    </schema>
+    <schema id="22" parent="1" name="ORDDATA">
+      <ObjectId>85</ObjectId>
+    </schema>
+    <schema id="23" parent="1" name="ORDPLUGINS">
+      <ObjectId>86</ObjectId>
+    </schema>
+    <schema id="24" parent="1" name="ORDSYS">
+      <ObjectId>84</ObjectId>
+    </schema>
+    <schema id="25" parent="1" name="OUTLN">
+      <ObjectId>13</ObjectId>
+    </schema>
+    <schema id="26" parent="1" name="PUBLIC">
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="27" parent="1" name="REMOTE_SCHEDULER_AGENT">
+      <ObjectId>34</ObjectId>
+    </schema>
+    <schema id="28" parent="1" name="SI_INFORMTN_SCHEMA">
+      <ObjectId>87</ObjectId>
+    </schema>
+    <schema id="29" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </schema>
+    <schema id="30" parent="1" name="SYS$UMF">
+      <ObjectId>46</ObjectId>
+    </schema>
+    <schema id="31" parent="1" name="SYSBACKUP">
+      <ObjectId>2147483617</ObjectId>
+    </schema>
+    <schema id="32" parent="1" name="SYSDG">
+      <ObjectId>2147483618</ObjectId>
+    </schema>
+    <schema id="33" parent="1" name="SYSKM">
+      <ObjectId>2147483619</ObjectId>
+    </schema>
+    <schema id="34" parent="1" name="SYSRAC">
+      <ObjectId>2147483620</ObjectId>
+    </schema>
+    <schema id="35" parent="1" name="SYSTEM">
+      <ObjectId>9</ObjectId>
+    </schema>
+    <schema id="36" parent="1" name="WMSYS">
+      <ObjectId>71</ObjectId>
+    </schema>
+    <schema id="37" parent="1" name="XDB">
+      <ObjectId>61</ObjectId>
+    </schema>
+    <schema id="38" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
+    </schema>
+    <sequence id="39" parent="5" name="GOODS_SEQ">
+      <ObjectId>73639</ObjectId>
+      <CreatedTimestamp>2021-02-16.21:13:23</CreatedTimestamp>
+      <ModifiedTimestamp>2021-02-26.13:30:54</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="40" parent="5" name="SALES_SEQ">
+      <ObjectId>73640</ObjectId>
+      <CreatedTimestamp>2021-02-16.21:13:23</CreatedTimestamp>
+      <ModifiedTimestamp>2021-02-26.13:32:49</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="41" parent="5" name="WAREHOUSE1_SEQ">
+      <ObjectId>73641</ObjectId>
+      <CreatedTimestamp>2021-02-16.21:13:23</CreatedTimestamp>
+      <ModifiedTimestamp>2021-02-26.13:32:59</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="42" parent="5" name="WAREHOUSE2_SEQ">
+      <ObjectId>73642</ObjectId>
+      <CreatedTimestamp>2021-02-16.21:13:23</CreatedTimestamp>
+      <ModifiedTimestamp>2021-02-26.13:33:06</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <table id="43" parent="5" name="GOODS">
+      <ObjectId>73643</ObjectId>
+      <CreatedTimestamp>2021-02-16.21:13:23</CreatedTimestamp>
+      <ModifiedTimestamp>2021-02-16.21:13:30</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="44" parent="5" name="SALES">
+      <ObjectId>73644</ObjectId>
+      <CreatedTimestamp>2021-02-16.21:13:26</CreatedTimestamp>
+      <ModifiedTimestamp>2021-02-26.14:58:08</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="45" parent="5" name="USERS">
+      <ObjectId>73950</ObjectId>
+      <CreatedTimestamp>2021-04-09.15:04:12</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-09.15:04:12</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="46" parent="5" name="WAREHOUSE1">
+      <ObjectId>73645</ObjectId>
+      <CreatedTimestamp>2021-02-16.21:13:26</CreatedTimestamp>
+      <ModifiedTimestamp>2021-02-16.21:13:30</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="47" parent="5" name="WAREHOUSE2">
+      <ObjectId>73646</ObjectId>
+      <CreatedTimestamp>2021-02-16.21:13:26</CreatedTimestamp>
+      <ModifiedTimestamp>2021-02-26.14:57:55</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <view id="48" parent="5" name="VIEW1">
+      <ObjectId>73683</ObjectId>
+      <SourceTextLength>131</SourceTextLength>
+      <DependsOnIds>73643,73645</DependsOnIds>
+      <CreatedTimestamp>2021-02-25.19:38:44</CreatedTimestamp>
+      <ModifiedTimestamp>2021-02-25.19:38:44</ModifiedTimestamp>
+      <Modifiable>1</Modifiable>
+    </view>
+    <view id="49" parent="5" name="VIEW2">
+      <ObjectId>73719</ObjectId>
+      <SourceTextLength>223</SourceTextLength>
+      <DependsOnIds>73643,73644</DependsOnIds>
+      <CreatedTimestamp>2021-02-26.13:09:20</CreatedTimestamp>
+      <ModifiedTimestamp>2021-02-26.13:09:20</ModifiedTimestamp>
+      <Modifiable>1</Modifiable>
+    </view>
+    <object-type id="50" parent="5" name="CONFRONTATION">
+      <ObjectId>73894</ObjectId>
+      <SourceTextLength>81</SourceTextLength>
+      <CreatedTimestamp>2021-03-08.18:18:03</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-08.18:20:07</ModifiedTimestamp>
+      <Final>1</Final>
+      <Instantiable>1</Instantiable>
+    </object-type>
+    <object-type id="51" parent="5" name="FORECAST">
+      <ObjectId>73919</ObjectId>
+      <SourceTextLength>55</SourceTextLength>
+      <CreatedTimestamp>2021-03-23.22:28:04</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-23.22:29:24</ModifiedTimestamp>
+      <Final>1</Final>
+      <Instantiable>1</Instantiable>
+    </object-type>
+    <object-type id="52" parent="5" name="TRANSFER">
+      <ObjectId>73892</ObjectId>
+      <SourceTextLength>69</SourceTextLength>
+      <CreatedTimestamp>2021-03-08.17:46:53</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-08.17:46:53</ModifiedTimestamp>
+      <Final>1</Final>
+      <Instantiable>1</Instantiable>
+    </object-type>
+    <collection-type id="53" parent="5" name="DEMANDFORECAST">
+      <ObjectId>73920</ObjectId>
+      <CreatedTimestamp>2021-03-23.22:29:30</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-23.22:29:30</ModifiedTimestamp>
+      <ElementType>FORECAST|0cs</ElementType>
+      <TypeKind>nested-table</TypeKind>
+    </collection-type>
+    <collection-type id="54" parent="5" name="GOODSCONFRONTATION">
+      <ObjectId>73895</ObjectId>
+      <CreatedTimestamp>2021-03-08.18:18:24</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-08.18:20:13</ModifiedTimestamp>
+      <ElementType>CONFRONTATION|0cs</ElementType>
+      <TypeKind>nested-table</TypeKind>
+    </collection-type>
+    <collection-type id="55" parent="5" name="GOODSTRANSFER">
+      <ObjectId>73893</ObjectId>
+      <CreatedTimestamp>2021-03-08.17:47:59</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-08.17:47:59</ModifiedTimestamp>
+      <ElementType>TRANSFER|0cs</ElementType>
+      <TypeKind>nested-table</TypeKind>
+    </collection-type>
+    <routine id="56" parent="5" name="GETDEMANDFORECAST">
+      <ObjectId>73902</ObjectId>
+      <DependsOnIds>7091,7092,73644,73919,73920</DependsOnIds>
+      <CreatedTimestamp>2021-03-23.22:33:00</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-11.20:04:37</ModifiedTimestamp>
+      <SourceTextLength>3309</SourceTextLength>
+      <RoutineKind>function</RoutineKind>
+    </routine>
+    <routine id="57" parent="5" name="GETGOODSCONFRONTATION">
+      <ObjectId>73723</ObjectId>
+      <DependsOnIds>7092,73644,73894,73895</DependsOnIds>
+      <CreatedTimestamp>2021-03-08.18:23:04</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-08.18:23:04</ModifiedTimestamp>
+      <SourceTextLength>827</SourceTextLength>
+      <RoutineKind>function</RoutineKind>
+    </routine>
+    <routine id="58" parent="5" name="GETGOODSFORTRANSFER">
+      <ObjectId>73688</ObjectId>
+      <DependsOnIds>7092,73643,73644,73892,73893</DependsOnIds>
+      <CreatedTimestamp>2021-03-08.18:11:19</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-08.18:13:42</ModifiedTimestamp>
+      <SourceTextLength>545</SourceTextLength>
+      <RoutineKind>function</RoutineKind>
+    </routine>
+    <routine id="59" parent="5" name="GETGOODSFORTRANSFER1">
+      <ObjectId>73720</ObjectId>
+      <DependsOnIds>7092,73688,73892,73893</DependsOnIds>
+      <CreatedTimestamp>2021-03-08.18:00:25</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-08.18:15:02</ModifiedTimestamp>
+      <SourceTextLength>549</SourceTextLength>
+      <RoutineKind>function</RoutineKind>
+    </routine>
+    <routine id="60" parent="5" name="GETGOODSMAXREQUEST">
+      <ObjectId>73724</ObjectId>
+      <DependsOnIds>7092,73644</DependsOnIds>
+      <CreatedTimestamp>2021-02-26.23:36:59</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-11.21:33:00</ModifiedTimestamp>
+      <SourceTextLength>296</SourceTextLength>
+      <RoutineKind>function</RoutineKind>
+    </routine>
+    <routine id="61" parent="5" name="TAKEFROMWAREHOUSES">
+      <ObjectId>74143</ObjectId>
+      <DependsOnIds>7092,73643,73645,73646</DependsOnIds>
+      <CreatedTimestamp>2021-04-11.01:14:17</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-11.01:16:57</ModifiedTimestamp>
+      <SourceTextLength>758</SourceTextLength>
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <column id="62" parent="43" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="63" parent="43" name="NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(50 byte)|0s</DataType>
+    </column>
+    <column id="64" parent="43" name="PRIORITY">
+      <Position>3</Position>
+      <DataType>FLOAT(*)|0s</DataType>
+    </column>
+    <index id="65" parent="43" name="GOODS_PK">
+      <ObjectId>73649</ObjectId>
+      <CreatedTimestamp>2021-02-16.21:13:27</CreatedTimestamp>
+      <ModifiedTimestamp>2021-02-16.21:13:27</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="66" parent="43" name="GOODS_PK">
+      <ModifiedTimestamp>2021-02-16.21:13:30</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>GOODS_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <trigger id="67" parent="43" name="GOODS_TRIG">
+      <ObjectId>73651</ObjectId>
+      <SourceTextLength>64</SourceTextLength>
+      <DependsOnIds>144,73639</DependsOnIds>
+      <CreatedTimestamp>2021-02-16.21:13:27</CreatedTimestamp>
+      <ModifiedTimestamp>2021-02-16.21:13:28</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>before-row</Turn>
+      <Condition>NEW.ID IS NULL</Condition>
+    </trigger>
+    <trigger id="68" parent="43" name="CHECKGOODONDELETE">
+      <ObjectId>73744</ObjectId>
+      <SourceTextLength>642</SourceTextLength>
+      <DependsOnIds>1754,73644,73645,73646</DependsOnIds>
+      <CreatedTimestamp>2021-03-08.17:02:05</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-08.17:15:27</ModifiedTimestamp>
+      <Events>D</Events>
+      <Turn>before-row</Turn>
+    </trigger>
+    <column id="69" parent="44" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="70" parent="44" name="GOOD_ID">
+      <Position>2</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+    </column>
+    <column id="71" parent="44" name="GOOD_COUNT">
+      <Position>3</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+    </column>
+    <column id="72" parent="44" name="CREATE_DATE">
+      <Position>4</Position>
+      <DataType>TIMESTAMP(3)|0s</DataType>
+    </column>
+    <index id="73" parent="44" name="SALES_PK">
+      <ObjectId>73650</ObjectId>
+      <CreatedTimestamp>2021-02-16.21:13:27</CreatedTimestamp>
+      <ModifiedTimestamp>2021-02-16.21:13:27</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="74" parent="44" name="SALES_PK">
+      <ModifiedTimestamp>2021-02-16.21:13:29</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SALES_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="75" parent="44" name="FK_SALES_GOODS">
+      <ModifiedTimestamp>2021-02-16.21:13:30</ModifiedTimestamp>
+      <ColNames>GOOD_ID</ColNames>
+      <RefTableName>GOODS</RefTableName>
+      <RefKeyName>GOODS_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <trigger id="76" parent="44" name="CHECKCOUNTFORSALES">
+      <ObjectId>73900</ObjectId>
+      <SourceTextLength>447</SourceTextLength>
+      <DependsOnIds>1754,73643,73645,73646</DependsOnIds>
+      <CreatedTimestamp>2021-03-11.21:20:05</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-11.21:30:16</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>before-row</Turn>
+    </trigger>
+    <trigger id="77" parent="44" name="CHECKCOUNTFORSALES1">
+      <ObjectId>73901</ObjectId>
+      <SourceTextLength>135</SourceTextLength>
+      <DependsOnIds>1754</DependsOnIds>
+      <CreatedTimestamp>2021-03-11.21:30:02</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-11.21:30:02</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>before-row</Turn>
+    </trigger>
+    <trigger id="78" parent="44" name="SALES_TRIG">
+      <ObjectId>73652</ObjectId>
+      <SourceTextLength>64</SourceTextLength>
+      <DependsOnIds>144,73640</DependsOnIds>
+      <CreatedTimestamp>2021-02-16.21:13:28</CreatedTimestamp>
+      <ModifiedTimestamp>2021-02-16.21:13:28</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>before-row</Turn>
+      <Condition>NEW.ID IS NULL</Condition>
+    </trigger>
+    <column id="79" parent="45" name="LOGIN">
+      <Position>1</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="80" parent="45" name="PASSWORD">
+      <Position>2</Position>
+      <DataType>VARCHAR2(200 byte)|0s</DataType>
+    </column>
+    <index id="81" parent="45" name="USERS_PK">
+      <ObjectId>73951</ObjectId>
+      <CreatedTimestamp>2021-04-09.15:04:12</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-09.15:04:12</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>LOGIN</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="82" parent="45" name="USERS_PK">
+      <ModifiedTimestamp>2021-04-09.15:04:12</ModifiedTimestamp>
+      <ColNames>LOGIN</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>USERS_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="83" parent="46" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="84" parent="46" name="GOOD_ID">
+      <Position>2</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+    </column>
+    <column id="85" parent="46" name="GOOD_COUNT">
+      <Position>3</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+    </column>
+    <index id="86" parent="46" name="WAREHOUSE_PK">
+      <ObjectId>73647</ObjectId>
+      <CreatedTimestamp>2021-02-16.21:13:27</CreatedTimestamp>
+      <ModifiedTimestamp>2021-02-16.21:13:27</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="87" parent="46" name="WAREHOUSE_PK">
+      <ModifiedTimestamp>2021-02-16.21:13:29</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>WAREHOUSE_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="88" parent="46" name="FK_WAREHOUSE1_GOODS">
+      <ModifiedTimestamp>2021-02-16.21:13:30</ModifiedTimestamp>
+      <ColNames>GOOD_ID</ColNames>
+      <RefTableName>GOODS</RefTableName>
+      <RefKeyName>GOODS_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <trigger id="89" parent="46" name="WAREHOUSE1_TRIG">
+      <ObjectId>73653</ObjectId>
+      <SourceTextLength>69</SourceTextLength>
+      <DependsOnIds>144,73641</DependsOnIds>
+      <CreatedTimestamp>2021-02-16.21:13:28</CreatedTimestamp>
+      <ModifiedTimestamp>2021-02-16.21:13:29</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>before-row</Turn>
+      <Condition>NEW.ID IS NULL</Condition>
+    </trigger>
+    <column id="90" parent="47" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="91" parent="47" name="GOOD_ID">
+      <Position>2</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+    </column>
+    <column id="92" parent="47" name="GOOD_COUNT">
+      <Position>3</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+    </column>
+    <index id="93" parent="47" name="WAREHOUSE2_PK">
+      <ObjectId>73648</ObjectId>
+      <CreatedTimestamp>2021-02-16.21:13:27</CreatedTimestamp>
+      <ModifiedTimestamp>2021-02-16.21:13:27</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="94" parent="47" name="WAREHOUSE2_PK">
+      <ModifiedTimestamp>2021-02-16.21:13:29</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>WAREHOUSE2_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="95" parent="47" name="FK_WAREHOUSE2_GOODS">
+      <ModifiedTimestamp>2021-02-16.21:13:31</ModifiedTimestamp>
+      <ColNames>GOOD_ID</ColNames>
+      <RefTableName>GOODS</RefTableName>
+      <RefKeyName>GOODS_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <trigger id="96" parent="47" name="WAREHOUSE2_TRIG">
+      <ObjectId>73654</ObjectId>
+      <SourceTextLength>69</SourceTextLength>
+      <DependsOnIds>144,73642</DependsOnIds>
+      <CreatedTimestamp>2021-02-16.21:13:29</CreatedTimestamp>
+      <ModifiedTimestamp>2021-02-16.21:13:29</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>before-row</Turn>
+      <Condition>NEW.ID IS NULL</Condition>
+    </trigger>
+    <trigger id="97" parent="47" name="CHECKWAREHOUSE2">
+      <ObjectId>73899</ObjectId>
+      <SourceTextLength>352</SourceTextLength>
+      <DependsOnIds>1754,73643,73645</DependsOnIds>
+      <CreatedTimestamp>2021-03-11.21:17:37</CreatedTimestamp>
+      <ModifiedTimestamp>2021-03-11.21:17:37</ModifiedTimestamp>
+      <Events>U</Events>
+      <Turn>before-row</Turn>
+    </trigger>
+    <column id="98" parent="48" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="99" parent="48" name="NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(50 byte)|0s</DataType>
+    </column>
+    <column id="100" parent="48" name="GOOD_COUNT">
+      <Position>3</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+    </column>
+    <column id="101" parent="49" name="NAME">
+      <Position>1</Position>
+      <DataType>VARCHAR2(50 byte)|0s</DataType>
+    </column>
+    <column id="102" parent="49" name="count">
+      <Position>2</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+    </column>
+    <object-attribute id="103" parent="50" name="DATE">
+      <Position>1</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </object-attribute>
+    <object-attribute id="104" parent="50" name="COUNT1">
+      <Position>2</Position>
+      <DataType>NUMBER|0s</DataType>
+    </object-attribute>
+    <object-attribute id="105" parent="50" name="COUNT2">
+      <Position>3</Position>
+      <DataType>NUMBER|0s</DataType>
+    </object-attribute>
+    <object-attribute id="106" parent="51" name="DAY">
+      <Position>1</Position>
+      <DataType>NUMBER|0s</DataType>
+    </object-attribute>
+    <object-attribute id="107" parent="51" name="REQUEST">
+      <Position>2</Position>
+      <DataType>NUMBER|0s</DataType>
+    </object-attribute>
+    <object-attribute id="108" parent="52" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER|0s</DataType>
+    </object-attribute>
+    <object-attribute id="109" parent="52" name="NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2|0s</DataType>
+    </object-attribute>
+    <object-attribute id="110" parent="52" name="COUNT">
+      <Position>3</Position>
+      <DataType>NUMBER|0s</DataType>
+    </object-attribute>
+    <argument id="111" parent="56">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>DEMANDFORECAST|0cs</DataType>
+    </argument>
+    <argument id="112" parent="56" name="TIME1">
+      <Position>1</Position>
+      <DataType>TIMESTAMP|0s</DataType>
+    </argument>
+    <argument id="113" parent="56" name="TIME2">
+      <Position>2</Position>
+      <DataType>TIMESTAMP|0s</DataType>
+    </argument>
+    <argument id="114" parent="56" name="G_ID">
+      <Position>3</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="115" parent="56" name="P_DAYS">
+      <Position>4</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="116" parent="57">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>GOODSCONFRONTATION|0cs</DataType>
+    </argument>
+    <argument id="117" parent="57" name="G1">
+      <Position>1</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="118" parent="57" name="G2">
+      <Position>2</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="119" parent="58">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>GOODSTRANSFER|0cs</DataType>
+    </argument>
+    <argument id="120" parent="59">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>GOODSTRANSFER|0cs</DataType>
+    </argument>
+    <argument id="121" parent="59" name="G_COUNT">
+      <Position>1</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="122" parent="60">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="123" parent="60" name="TIME1">
+      <Position>1</Position>
+      <DataType>TIMESTAMP|0s</DataType>
+    </argument>
+    <argument id="124" parent="60" name="TIME2">
+      <Position>2</Position>
+      <DataType>TIMESTAMP|0s</DataType>
+    </argument>
+    <argument id="125" parent="61" name="G_ID">
+      <Position>1</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="126" parent="61" name="G_COUNT">
+      <Position>2</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+  </database-model>
+</dataSource>

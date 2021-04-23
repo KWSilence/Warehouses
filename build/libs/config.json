@@ -1,0 +1,5 @@
+{
+  "db_url": "jdbc:oracle:thin:@localhost:1521:XE",
+  "db_user": "c##kws",
+  "db_password": "kws"
+}
